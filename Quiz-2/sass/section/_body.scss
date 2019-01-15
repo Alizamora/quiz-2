@@ -1,0 +1,38 @@
+/*General*/
+body{
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+
+    h1{
+        font-family: $primaryFont;
+        size: 45px;
+        margin-bottom: 10px;
+        color: $black;
+        text-align: center;
+    }
+
+    .subtitle{
+        font-family: $secondaryFont;
+        size: 14px;
+        color: $black;
+        text-align: center;
+    }
+
+    .imageInfo{
+        width: 55%;
+        button{
+            background-color: $green;
+            position: absolute;
+            top: 50px; left: 50px;
+        }
+    }
+
+    .calendar{
+        width: 45%;
+
+    }
+}
