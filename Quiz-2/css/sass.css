@@ -1,37 +1,181 @@
 /* Variables*/
 /*General*/
+/********
+    a
+********/
+.ad {
+  background-color: #73C5A5;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 7px;
+  position: absolute;
+  left: 105px;
+  top: 16px;
+}
+
+.arrow-left {
+  background: url(../img/arrow-left.svg) center no-repeat;
+  background-size: contain;
+  height: 45px;
+  position: absolute;
+  left: 33px;
+  top: 300px;
+  width: 45px;
+}
+
+.arrow-right {
+  background: url(../../img/arrow-right.svg) center no-repeat;
+  background-size: contain;
+  height: 45px;
+  position: absolute;
+  left: 527px;
+  top: 300px;
+  width: 45px;
+}
+
+/********
+    b
+********/
 body {
   margin: 0 auto;
 }
 
+/********
+    c
+********/
 .container {
   max-width: 1100px;
   margin: 0 auto;
   text-align: center;
 }
-.container h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  size: 45px;
-  margin-bottom: 10px;
+
+.calendar {
+  float: right;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 45%;
+}
+
+/********
+    e
+********/
+.event-description {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.event-place {
+  font-weight: bold;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+}
+
+/********
+    h
+********/
+h1 {
   color: #333;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 10px;
+  size: 45px;
   text-align: center;
 }
-.container .subtitle {
+
+/********
+    i
+********/
+.imageInfo {
+  width: 55%;
+  padding-bottom: 611px;
+  float: left;
+  background: no-repeat;
+  background-image: url(../img/bg-event.jpg);
+  background-position: center;
+  position: relative;
+}
+
+.info {
+  position: absolute;
+  left: 103px;
+  top: 113px;
+  text-align: left;
+  max-width: 335px;
+}
+
+.img-btn {
+  background-color: #73C5A5;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  left: 93px;
+  padding: 10px;
+  padding-left: 332px;
+  position: absolute;
+  top: 611px;
+}
+
+.img-event-date {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin: 0;
+}
+
+.img-event-description {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  margin: 0;
+}
+
+.img-event-place {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/********
+    l
+********/
+li {
+  border-bottom-left-radius: 15px solid #73C5A5;
+  border-left: #73C5A5 solid 15px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  padding-bottom: 17px;
+  padding-left: 20px;
+  text-align: left;
+}
+li a {
+  background-color: #fff;
+  border: #222 solid 1px;
+  border-radius: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  height: 30px;
+  padding: 6px;
+}
+li h4 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+/********
+    s
+********/
+.subtitle {
+  padding-bottom: 20px;
+  color: #333;
   font-family: Arial, Helvetica, sans-serif;
   size: 14px;
-  color: #333;
-}
-.container .imageInfo {
-  width: 55%;
-}
-.container .imageInfo button {
-  background-color: #73C5A5;
-  position: absolute;
-  top: 50px;
-  left: 50px;
-}
-.container .calendar {
-  width: 45%;
+  text-align: center;
 }
 
 /*# sourceMappingURL=sass.css.map */

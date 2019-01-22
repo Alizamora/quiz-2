@@ -3,7 +3,19 @@
 /********
     a
 ********/
-.arror-left {
+.ad {
+  background-color: #73C5A5;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 7px;
+  position: absolute;
+  left: 105px;
+  top: 16px;
+}
+
+.arrow-left {
+  background: url(../img/arrow-left.svg) center no-repeat;
+  background-size: contain;
   height: 45px;
   position: absolute;
   left: 33px;
@@ -12,9 +24,11 @@
 }
 
 .arrow-right {
+  background: url(../../img/arrow-right.svg) center no-repeat;
+  background-size: contain;
   height: 45px;
   position: absolute;
-  left: 523px;
+  left: 527px;
   top: 300px;
   width: 45px;
 }
@@ -82,15 +96,6 @@ h1 {
   background-image: url(../img/bg-event.jpg);
   background-position: center;
   position: relative;
-}
-.imageInfo span {
-  background-color: #73C5A5;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 7px;
-  position: absolute;
-  left: 105px;
-  top: 16px;
 }
 
 .info {
